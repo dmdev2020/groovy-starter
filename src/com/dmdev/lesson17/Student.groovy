@@ -5,7 +5,8 @@ import groovy.transform.TupleConstructor
 
 @ToString
 @TupleConstructor
-class Student {
+//@Mixin(WithId.class)
+class Student implements WithId {
     String firstName
     String lastName
     Integer age
