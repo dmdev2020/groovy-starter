@@ -3,8 +3,6 @@ package com.dmdev.lesson22
 import com.dmdev.lesson17.Student
 import org.codehaus.groovy.runtime.DefaultGroovyMethods
 
-import java.lang.reflect.Method
-
 class MetaClassRunner {
 
     static void main(String[] args) {
